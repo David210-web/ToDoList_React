@@ -10,7 +10,7 @@ function ToDoListItem({ task,deleteTask,actualizarEstado }) {
   return (
     <div className='my-4 d-flex justify-content-center align-items-center justify-content-between'>
         <input type="checkbox" name='checkbox' checked={task.estado} onChange={handleChecked}/>
-        <span>{task.tarea}</span>
+        <span className={task.estado ? 'text-decoration-line-through' : ''}>{task.tarea}</span>
         <button className='btn btn-danger' onClick={()=> deleteTask(task.id)}><i className='bx bx-trash' ></i></button>
     </div>
   )
