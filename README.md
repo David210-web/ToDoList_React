@@ -1,8 +1,20 @@
-# React + Vite
+# Ejercicio ToDo List en react
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este ejercicio de una ToDoList esta hecho con react js construido con la herramienta de vite 
+cuenta con las siguientes funciones (las tareas se almacenan en localstorage)
 
-Currently, two official plugins are available:
+-Creacion de tareas
+-Eliminacion de tareas
+-Marcar tareas como completadas
+-Filtrado de tareas (completada,incompleta, todas)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Todo el codigo esta en el repositorio , tambien se ha hecho una implementacion a un sitio web estatico
+gracias a la ayuda de github pages cuyo enlace es : 
+https://david210-web.github.io/ToDoList_React/
+
+Aparte si quieren el mismo ejercicio utilizando vanilla JS (javascript puro) tambien esta el enlace a otro repositorio donde lo pueden encontrar
+https://github.com/David210-web/ToDoList_js.git
+Contiene las mismas funcionalidades (solo fue adaptado a vanilla js)
+y tambien tiene una implementacion a un sitio web estatico
+https://david210-web.github.io/ToDoList_js/
+
